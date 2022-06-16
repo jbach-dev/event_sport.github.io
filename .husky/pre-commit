@@ -4,5 +4,5 @@
 npm run prettier
 npm run eslint_js
 npm run eslint_html
-echo "Est-ce que tu as bien pensé à changer la version en cas de changement ?"
-echo "C'est plus joli avec un emoji un commit quand même !"
+echo "Est-ce que tu as bien pensé à changer la version en cas de changement ? 🤯"\n
+echo "C'est plus joli avec un emoji un commit quand même ! 🤩 "\n
