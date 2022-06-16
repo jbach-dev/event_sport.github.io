@@ -19,7 +19,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "npx prettier --write .",
+    "eslint_js":"npx eslint '*/*.js'",
+    "eslint_html":"npx eslint '*/*.html'",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
