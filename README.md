@@ -18,3 +18,6 @@ Gitflow, SemVerg, Environnement, Propreté du code, Husky, Eslint, Prettier, Rea
 
 **Interdit**
 - Framework Css interdit (Bootstrap, MaterialUI, Tailwind, Chakra, …)
+
+## Start project
+### `npm start`
