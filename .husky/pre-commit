@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm run prettier
+npm run eslint
+
+echo "As-tu mis un emoji dans le message du commit ? (c'est plus joli) 🤓\n"
+echo "Si tu as fait une modification majeure ! Pense à changer la version dans le ReadMe ! 🤩\n"
