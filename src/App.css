@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 /* .App {
   display: flex;
@@ -8,28 +8,28 @@
 	font-family: "Poppins", sans-serif;
 } */
 
-body{
-	font-family: "Poppins", sans-serif;
-  color:#264653
+body {
+  font-family: "Poppins", sans-serif;
+  color: #264653;
 }
 
-.title_form{
+.title_form {
   display: flex;
   justify-content: center;
   flex-direction: column;
   font-weight: bold;
-  font-size:30px;
-  width:400px;
-  padding:30px;
-  box-shadow: 0px 10px 10px rgba(38,70,83,0.2);
+  font-size: 30px;
+  width: 400px;
+  padding: 30px;
+  box-shadow: 0px 10px 10px rgba(38, 70, 83, 0.2);
 }
 
-.icon_party{
-  width:30px;
-  margin-right:10px;
+.icon_party {
+  width: 30px;
+  margin-right: 10px;
 }
 
-.div_form{
+.div_form {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -37,73 +37,70 @@ body{
   align-items: center;
 }
 
-.all_form{
-  height:100%;
-  display:flex;
+.all_form {
+  height: 100%;
+  display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.button_form{
-  margin-top:20px;
-  padding:10px;
-  background-color:#E9C46A;
+.button_form {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e9c46a;
   width: 100%;
   /* border: 1px solid rgba(38,70,83,0.5);
    */
-  box-shadow: 0px 10px 10px rgba(38,70,83,0.2);
+  box-shadow: 0px 10px 10px rgba(38, 70, 83, 0.2);
   border: none;
-
-
 }
 
-.text_image{
+.text_image {
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
 }
 
-.form_elements{
+.form_elements {
   display: flex;
   flex-direction: column;
 }
 
-.label_input{
+.label_input {
   display: flex;
   flex-direction: column;
   justify-content: center;
-margin-top:10px;
+  margin-top: 10px;
 }
 
-.label{
+.label {
   font-weight: 200;
   font-size: 15px;
-  padding-right:50px;
+  padding-right: 50px;
   justify-content: center;
 }
-.input{
-  border: 1px solid rgba(38,70,83,0.2);
+.input {
+  border: 1px solid rgba(38, 70, 83, 0.2);
   border-radius: 5px;
-  padding:5px;
+  padding: 5px;
 }
 
-.message_successfull{
-  background-color: rgba(49,157,143,0.5);
-
+.message_successfull {
+  background-color: rgba(49, 157, 143, 0.5);
 }
 
-.message_not_successfull{
-  background-color: rgba(231,111,81,0.5);
+.message_not_successfull {
+  background-color: rgba(231, 111, 81, 0.5);
 }
 
-.message_txt{
-  margin:10px;
-  height:50px;
-  width:50%;
-  color:white;
-  font-size:12px;
+.message_txt {
+  margin: 10px;
+  height: 50px;
+  width: 50%;
+  color: white;
+  font-size: 12px;
   text-align: center;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
