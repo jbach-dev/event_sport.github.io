@@ -45,7 +45,7 @@ Gitflow, SemVerg, Environnement, Propreté du code, Husky, Eslint, Prettier, Rea
   </a>
 </p>
 
-> Réalisation d’une agences événementielles sous **React Js** 
+> Réalisation d’une agences événementielles sous **React Js**
 
 ### 🏠 [Homepage] mettre .io
 
@@ -70,11 +70,12 @@ npm start
 
 👤 **Samia, Hugo et Josephine**
 
-* Github: [@sambld-tech, Fortunehugo, jbach-dev](https://github.com/sambld-tech, Fortunehugo, jbach-dev)
+- Github: [@sambld-tech, Fortunehugo, jbach-dev](https://github.com/sambld-tech, Fortunehugo, jbach-dev)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
