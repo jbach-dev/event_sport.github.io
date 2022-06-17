@@ -1,8 +1,0 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-npm run prettier
-npm run eslint_js
-npm run eslint_html
-echo "Est-ce que tu as bien pensé à changer la version dans le ReadMe ? 🤯\n"
-echo "C'est plus joli avec un emoji un commit quand même ! 🤩\n "
