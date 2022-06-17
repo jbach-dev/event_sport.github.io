@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to Sport Events 👋</h1>
+<h2 align="center"> 0.1.0</h2>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
   <img src="https://img.shields.io/badge/node-%3E%3D9.3.0-blue.svg" />
   <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
@@ -53,7 +53,7 @@ Gitflow, SemVerg, Environnement, Propreté du code, Husky, Eslint, Prettier, Rea
 
 👤 **Samia, Hugo et Josephine**
 
-* Github: [@sambld-tech, fortunehugo, jbach-dev](https://github.com/sambld-tech, fortunehugo, jbach-dev)
+- Github: [@sambld-tech, fortunehugo, jbach-dev](https://github.com/sambld-tech, https://github.com/fortunehugo, https://github.com/jbach-dev)
 
 ## Show your support
 
