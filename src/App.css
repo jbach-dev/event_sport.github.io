@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"); 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .App {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #aeaeae;
+	font-family: "Poppins", sans-serif;
+} */
+
+body{
+	font-family: "Poppins", sans-serif;
+  color:#264653
+}
+
+.title_form{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  font-weight: bold;
+  font-size:30px;
+  width:400px;
+  padding:30px;
+  box-shadow: 0px 10px 10px rgba(38,70,83,0.2);
 }
 
-.App-link {
-  color: #61dafb;
+.icon_party{
+  width:30px;
+  margin-right:10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.div_form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* justify-items: center; */
+  align-items: center;
+}
+
+.all_form{
+  height:100%;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button_form{
+  margin-top:20px;
+  padding:10px;
+  background-color:#E9C46A;
+  width: 100%;
+  /* border: 1px solid rgba(38,70,83,0.5);
+   */
+  box-shadow: 0px 10px 10px rgba(38,70,83,0.2);
+  border: none;
+
+
+}
+
+.text_image{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.form_elements{
+  display: flex;
+  flex-direction: column;
+}
+
+.label_input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+margin-top:10px;
+}
+
+.label{
+  font-weight: 200;
+  font-size: 15px;
+  padding-right:50px;
+  justify-content: center;
+}
+.input{
+  border: 1px solid rgba(38,70,83,0.2);
+  border-radius: 5px;
+  padding:5px;
+}
+
+.message_successfull{
+  background-color: rgba(49,157,143,0.5);
+
+}
+
+.message_not_successfull{
+  background-color: rgba(231,111,81,0.5);
+}
+
+.message_txt{
+  margin:10px;
+  height:50px;
+  width:50%;
+  color:white;
+  font-size:12px;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
