@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+<h1 align="center">Welcome to Sport Events 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
+  <img src="https://img.shields.io/badge/node-%3E%3D9.3.0-blue.svg" />
+  <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Réalisation d’un site de sport d'une agence événementielles sous **React Js**
 
-## Available Scripts
+### 🏠 [Homepage](https://github.com/jbach-dev/event_sport)
 
-In the project directory, you can run:
+## Prerequisites
 
-### `npm start`
+- npm >=5.5.0
+- node >=9.3.0
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Install
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```sh
+npm install
+```
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+npm start
+```
 
-### `npm run build`
+## Spécificités
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Conception du site
+- Présentation d’évènement avec filtre de recherche
+- Page Faq
+- Page 404
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Gitflow, SemVerg, Environnement, Propreté du code, Husky, Eslint, Prettier, Readme, Déploiement sous Netlify + changement de nom
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Bonus
 
-### `npm run eject`
+- Faker.js
+- Issue et Board (Gitlab)
+- json-server
+- gitmoji
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Interdit
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Framework Css interdit (Bootstrap, MaterialUI, Tailwind, Chakra, …)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Author
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+👤 **Samia, Hugo et Josephine**
 
-## Learn More
+* Github: [@sambld-tech, fortunehugo, jbach-dev](https://github.com/sambld-tech, fortunehugo, jbach-dev)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Donnez une ⭐️ si ce projet vous a plu !
