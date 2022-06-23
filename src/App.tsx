@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { MDBTable, MDBTableHead, MDBTableBody, MDBRow, MDBCol, MDBContainer, MDBBtn, MDBBtnGroup } from "mdb-react-ui-kit";
 import './App.css';
 
 function App() {
@@ -62,7 +61,7 @@ function App() {
 
 
   return (
-    <MDBContainer>
+    <section>
       <form style={{
         margin: "auto",
         padding: "15px",
@@ -81,28 +80,28 @@ function App() {
         >
         </input>
 
-        <MDBBtn type="submit" color="dark">Recherche...</MDBBtn>
-        <MDBBtn className="mx-2" color="info" onClick={handleReset}>Restaurer</MDBBtn>
+        <button type="submit" color="dark">Recherche...</button>
+        <button className="mx-2" color="info" onClick={handleReset}>Restaurer</button>
 
 
       </form>
-      <MDBCol size="8"> 
+      <div>
         <h5> Trier par :</h5>
-        <select style={{width:"100px", borderRadius:"2px", height:"35px"}}
-        onChange={handleSort}
-        value={sortValue}>
+        <select style={{ width: "100px", borderRadius: "2px", height: "35px" }}
+          onChange={handleSort}
+          value={sortValue}>
           <option>Selectionnez</option>
-          {sortOptions.map((item, index) => 
-          <option value={item} key={index}>{item}</option>)}
-                
+          {sortOptions.map((item, index) =>
+            <option value={item} key={index}>{item}</option>)}
+
         </select>
-      </MDBCol>
+      </div>
       <div style={{ marginTop: "100px" }}>
         <h2 className="text-center">Les évènements</h2>
-        <MDBRow>
-          <MDBCol size="12">
-            <MDBTable>
-              <MDBTableHead dark>
+        <div>
+          <div>
+            <div>
+              <div>
                 <tr>
                   <th scope="col"> No.</th>
                   <th scope="col"> Nom</th>
@@ -110,38 +109,39 @@ function App() {
                   <th scope="col"> Adresse</th>
                   <th scope="col"> Date</th>
                 </tr>
-              </MDBTableHead>
+              </div>
               {data.length === 0 ? (
-                <MDBTableBody className="align-center mb-0">
+                <div className="align-center mb-0">
                   <tr>
                     <td colSpan={8} className="text-center mb-0"> No data found</td>
                   </tr>
 
-                </MDBTableBody>
+                </div>
               ) : (
                 data.map((item, index) => (
-                  <MDBTableBody key={index}>
+                  <div key={index}>
                     <tr>
                       <th scope="row">
                         {index + 1}
                       </th>
-                      <td>{item['name']}</td>
-                      <td>{item['city']}</td>
-                      <td>{item['street']}</td>
-                      <td>{item['age']}</td>
+                      <td>{item['Nom']}</td>
+                      <td>{item['Ville']}</td>
+                      <td>{item['Adresse']}</td>
+                      <td>{item['Date']}</td>
                     </tr>
 
-                  </MDBTableBody>
+                  </div>
                 ))
               )}
-            </MDBTable>
-          </MDBCol>
-        </MDBRow>
+            </div>
+          </div>
+        </div>
       </div>
-     
-     
 
-    </MDBContainer>
+
+
+
+    </section>
   );
 }
 
