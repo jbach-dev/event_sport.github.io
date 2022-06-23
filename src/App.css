@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+.Div-title{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    background-color: #3c3c3c;
+    color: gainsboro;
+    border-bottom : 3px solid #56E3B8;
+}
+
+.Bouton-Submit{
+  background-color: #56E3B8;
+  border: 3px solid #56E3B8;
+}
+
+.Bouton-Restaurer{
+  background-color: #EEE;
+  border: 3px solid #EEE;
+}
+
+.Filtre{
+  margin-left: 70px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.Bouton-filtre{
+  background-color: #EEE;
+  border: 3px solid #EEE;
+  margin-left: 20px;
+}
+
+.Trier{
+  margin-top: 5px;
+}
+.Div-content{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  background-color: #EEE;
+}
+
+.Desc{
+  width: 14%;
+  margin: auto;
+  text-align: center;
+}
+
+.Description{
+  width: 20%;
+
+}
+
+.Titre{
+  margin-left: 70px;
+  width: 9%;
+}
+
+.DescTitle{
+  margin-left: 10px;
+}
+

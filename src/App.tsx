@@ -1,14 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import {
-  MDBTable,
-  MDBTableHead,
-  MDBTableBody,
-  MDBRow,
-  MDBCol,
-  MDBContainer,
-  MDBBtn,
-} from "mdb-react-ui-kit";
 import "./App.css";
 
 function App() {
@@ -70,13 +61,14 @@ function App() {
   };
 
   return (
-    <MDBContainer>
+    <div>
       <form
         style={{
           margin: "auto",
           padding: "15px",
           maxWidth: "800px",
           alignContent: "center",
+          marginTop: "40px",
         }}
         className="d-flex input-group w-auto"
         onSubmit={handleSearch}
@@ -89,17 +81,17 @@ function App() {
           onChange={(e) => setValue(e.target.value)}
         ></input>
 
-        <MDBBtn type="submit" color="dark">
+        <button type="submit" className="Bouton-Submit">
           Recherche...
-        </MDBBtn>
-        <MDBBtn className="mx-2" color="info" onClick={handleReset}>
+        </button>
+        <button className="Bouton-Restaurer" color="info" onClick={handleReset}>
           Restaurer
-        </MDBBtn>
+        </button>
       </form>
-      <MDBCol size="8">
-        <h5> Trier par :</h5>
+      <div className="Filtre">
+        <h5 className="Trier"> Trier par :</h5>
         <select
-          style={{ borderRadius: "2px", height: "35px" }}
+          className="Bouton-filtre"
           onChange={handleSort}
           value={sortValue}
         >
@@ -110,64 +102,63 @@ function App() {
             </option>
           ))}
         </select>
-      </MDBCol>
-      <div style={{ marginTop: "100px" }}>
+      </div>
+      <div style={{ marginTop: "40px" }}>
         <h2 className="text-center">Les évènements</h2>
-        <MDBRow>
-          <MDBCol size="12">
-            <MDBTable>
-              <MDBTableHead dark>
-                <tr>
-                  <th scope="col"> No.</th>
-                  <th scope="col"> Titre</th>
-                  <th scope="col"> Description</th>
-                  <th scope="col">Photo</th>
-                  <th scope="col"> Prix</th>
-                  <th scope="col"> Adresse</th>
-                  <th scope="col"> Date</th>
-                </tr>
-              </MDBTableHead>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div className="Div-title">
+                  <th scope="col" className="Desc Titre"> Titre</th>
+                  <th scope="col" className="Desc Description DescTitle"> Description</th>
+                  <th scope="col" className="Desc">Photo</th>
+                  <th scope="col" className="Desc"> Prix</th>
+                  <th scope="col" className="Desc"> Adresse</th>
+                  <th scope="col" className="Desc"> Date</th>
+                </div>
+              </div>
               {data.length === 0 ? (
-                <MDBTableBody className="align-center mb-0">
+                <div className="align-center mb-0">
                   <tr>
                     <td colSpan={8} className="text-center mb-0">
                       {" "}
                       No data found
                     </td>
                   </tr>
-                </MDBTableBody>
+                </div>
               ) : (
                 data.map((item, index) => (
-                  <MDBTableBody key={index}>
-                    <tr>
+                  <div key={index}>
+                    <div className="Div-content">
                       <th scope="row">{index + 1}</th>
-                      <td>{item["title"]}</td>
-                      <td>{item["description"]}</td>
-                      <td>
+                      <td className="Desc">{item["title"]}</td>
+                      <td className="Desc Description">{item["description"]}</td>
+                      <td className="Desc">
                         <img src={item["picture"]}></img>
                       </td>
-                      <td>{item["price"]}</td>
-                      <td>
+                      <td className="Desc">{item["price"]}</td>
+                      <td className="Desc">
                         {item["street"]}
                         <br />
                         {item["city"]}
                       </td>
-                      <td>
+                      <td className="Desc">
                         {item["day_date"]}
                         <br />
                         {item["month_date"]}
                         <br />
                         {item["year_date"]}
                       </td>
-                    </tr>
-                  </MDBTableBody>
+                    </div>
+                  </div>
                 ))
               )}
-            </MDBTable>
-          </MDBCol>
-        </MDBRow>
+            </div>
+          </div>
+        </div>
       </div>
-    </MDBContainer>
+    </div>
   );
 }
 
