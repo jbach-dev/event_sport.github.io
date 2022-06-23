@@ -4,7 +4,7 @@ const fs = require("fs");
 const generatePersonsData = (number) => {
   const persons = [];
   while (number >= 0) {
-    const img = 'https://source.unsplash.com/random/50×50/?fruit'
+    const img = "https://source.unsplash.com/random/50×50/?fruit";
     persons.push({
       id: number,
       title: faker.company.bsAdjective(),
@@ -14,8 +14,8 @@ const generatePersonsData = (number) => {
       street: faker.address.streetAddress(),
       city: faker.address.city(),
       month_date: faker.date.month(true),
-      day_date:faker.datatype.number({min: 1,max:31}),
-      year_date:faker.datatype.number({min: 2021,max:2023})
+      day_date: faker.datatype.number({ min: 1, max: 31 }),
+      year_date: faker.datatype.number({ min: 2021, max: 2023 }),
     });
     number--;
   }
