@@ -1,22 +1,29 @@
-import React from "react";
+import React, { lazy, Suspense } from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Header from './Features/Header'
+
+// Js
+const Events = lazy(() => import('./Features/Events'))
+// const Header = lazy(() => import('./Features/Header'))
+const FAQ = lazy(() => import('./Features/FAQ'))
+const ThreeDots = lazy(() => import('./Components/Loader/ThreeDots'))
+
+// Css
 // import './Features/App.css'
-import Events from "./Features/Events";
-import Header from "./Features/Header";
-import FAQ from "./Features/FAQ";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => (
-  <BrowserRouter>
-    <div>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Events />} />
-        {/* <Route path="/events" element={<Events />} /> */}
-        <Route path="/FAQ" element={<FAQ />} />
-        {/* <Route path="*" element={<Page404 />} /> */}
-      </Routes>
-    </div>
-  </BrowserRouter>
-);
+    <Suspense fallback={<ThreeDots />}>
+        {/* <Suspense fallback={<p>Chargement ...</p>}> */}
+        <Router>
+            <Header />
+            <Switch>
+                <Route exact path="/" component={Events} />
+                {/* <Route path="/events" element={<Events />} /> */}
+                <Route path="/faq" component={FAQ} />
+                {/* <Route path="*" element={<Page404 />} /> */}
+            </Switch>
+        </Router>
+    </Suspense>
+)
 
-export default App;
+export default App

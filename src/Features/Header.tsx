@@ -1,8 +1,25 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 const Header = () => {
-  return <nav>{/* <Link to="/">Events</Link> */}</nav>;
-};
-
-export default Header;
+    return (
+        <>
+            <header>
+                <nav>
+                    <ul>
+                        <li>
+                            <Link to="/" title="redirection vers Events">
+                                Events
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/faq" title="redirection vers Faq">
+                                FAQ
+                            </Link>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </>
+    )
+}
+export default Header

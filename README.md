@@ -40,29 +40,29 @@ npm start
 
 ## Spécificités
 
-- Conception du site
-- Présentation d’évènement avec filtre de recherche
-- Page Faq
-- Page 404
+-   Conception du site
+-   Présentation d’évènement avec filtre de recherche
+-   Page Faq
+-   Page 404
 
 Gitflow, SemVerg, Environnement, Propreté du code, Husky, Eslint, Prettier, Readme, Déploiement sous Netlify + changement de nom
 
 ## Bonus
 
-- Faker.js
-- Issue et Board (Gitlab)
-- json-server
-- gitmoji
+-   Faker.js
+-   Issue et Board (Gitlab)
+-   json-server
+-   gitmoji
 
 ## Interdit
 
-- Framework Css interdit (Bootstrap, MaterialUI, Tailwind, Chakra, …)
+-   Framework Css interdit (Bootstrap, MaterialUI, Tailwind, Chakra, …)
 
 ## Author
 
 👤 **Samia, Hugo et Josephine**
 
-- Github: [@sambld-tech, fortunehugo, jbach-dev](https://github.com/sambld-tech, https://github.com/fortunehugo, https://github.com/jbach-dev)
+-   Github: [@sambld-tech, fortunehugo, jbach-dev](https://github.com/sambld-tech, https://github.com/fortunehugo, https://github.com/jbach-dev)
 
 ## Show your support
 
