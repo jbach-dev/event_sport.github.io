@@ -12,11 +12,6 @@
 
 ### 🏠 [Homepage](https://github.com/jbach-dev/event_sport)
 
-## Prerequisites
-
-- npm >=5.5.0
-- node >=9.3.0
-
 ## Install
 
 ```sh
@@ -24,6 +19,20 @@ npm install
 ```
 
 ## Usage
+
+Start server
+
+```sh
+npm run data_server
+```
+
+New data
+
+```sh
+npm run data
+```
+
+Start application
 
 ```sh
 npm start
