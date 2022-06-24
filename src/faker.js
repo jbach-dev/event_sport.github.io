@@ -1,11 +1,10 @@
 const faker = require("faker");
 faker.setLocale("fr");
 const fs = require("fs");
-const generatePersonsData = (number) => {
-  const persons = [];
+const generateEventsData = (number) => {
+  const events = [];
   while (number >= 0) {
-    const img = "https://source.unsplash.com/random/50×50/?fruit";
-    persons.push({
+    events.push({
       id: number,
       title: faker.company.bsAdjective(),
       description: faker.commerce.productDescription(),
@@ -19,9 +18,9 @@ const generatePersonsData = (number) => {
     });
     number--;
   }
-  return persons;
+  return events;
 };
 fs.writeFileSync(
   "./data/db.json",
-  JSON.stringify({ events: generatePersonsData(20) })
+  JSON.stringify({ events: generateEventsData(20) })
 );
