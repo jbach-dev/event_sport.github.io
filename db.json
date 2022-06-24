@@ -1,30 +1,31 @@
-{"users":
-	[{
-		"name": "No",
-		"city": "New-York",
-		"street": 2,
-		"age": 39
-	},
-	 
-	{
-	  "name": "Po",
-	  "city": "Paris",
-	  "street": 24,
-	  "age": 2
-  },
-   
-  {
-	"name": "Mo",
-	"city": "Madrid",
-	"street": 200,
-	"age": 24
-  },
-  
-  {
-	"name": "Lo",
-	"city": "Londre",
-	"street": 9,
-	"age": 19
-  }
+{
+  "users": [
+    {
+      "name": "No",
+      "city": "New-York",
+      "street": 2,
+      "age": 39
+    },
+
+    {
+      "name": "Po",
+      "city": "Paris",
+      "street": 24,
+      "age": 2
+    },
+
+    {
+      "name": "Mo",
+      "city": "Madrid",
+      "street": 200,
+      "age": 24
+    },
+
+    {
+      "name": "Lo",
+      "city": "Londre",
+      "street": 9,
+      "age": 19
+    }
   ]
-	}
+}

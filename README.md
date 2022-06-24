@@ -20,7 +20,7 @@ npm install
 
 ## Usage
 
-Start server
+Start server && data
 
 ```sh
 npm run data_server

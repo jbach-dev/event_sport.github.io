@@ -110,12 +110,29 @@ function Events() {
             <div>
               <div>
                 <div className="Div-title">
-                  <th scope="col" className="Desc Titre"> Titre</th>
-                  <th scope="col" className="Desc Description DescTitle"> Description</th>
-                  <th scope="col" className="Desc">WHE</th>
-                  <th scope="col" className="Desc"> Prix</th>
-                  <th scope="col" className="Desc"> Adresse</th>
-                  <th scope="col" className="Desc"> Date</th>
+                  <th scope="col" className="Desc Titre">
+                    {" "}
+                    Titre
+                  </th>
+                  <th scope="col" className="Desc Description DescTitle">
+                    {" "}
+                    Description
+                  </th>
+                  <th scope="col" className="Desc">
+                    WHE
+                  </th>
+                  <th scope="col" className="Desc">
+                    {" "}
+                    Prix
+                  </th>
+                  <th scope="col" className="Desc">
+                    {" "}
+                    Adresse
+                  </th>
+                  <th scope="col" className="Desc">
+                    {" "}
+                    Date
+                  </th>
                 </div>
               </div>
               {data.length === 0 ? (
@@ -133,7 +150,9 @@ function Events() {
                     <div className="Div-content">
                       <th scope="row">{index + 1}</th>
                       <td className="Desc">{item["title"]}</td>
-                      <td className="Desc Description">{item["description"]}</td>
+                      <td className="Desc Description">
+                        {item["description"]}
+                      </td>
                       <td className="Desc">
                         <img src={item["picture"]}></img>
                       </td>

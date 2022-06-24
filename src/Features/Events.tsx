@@ -121,10 +121,7 @@ function Events() {
               {data.length === 0 ? (
                 <div className="align-center mb-0">
                   <p>
-                    <p className="text-center mb-0">
-                      {" "}
-                      No data found
-                    </p>
+                    <p className="text-center mb-0"> No data found</p>
                   </p>
                 </div>
               ) : (

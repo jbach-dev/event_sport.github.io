@@ -37,65 +37,63 @@
   }
 }
 
-.Div-title{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 70px;
-    margin-bottom: 50px;
-    background-color: #3c3c3c;
-    color: gainsboro;
-    border-bottom : 3px solid #56E3B8;
+.Div-title {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  background-color: #3c3c3c;
+  color: gainsboro;
+  border-bottom: 3px solid #56e3b8;
 }
 
-.Bouton-Submit{
-  background-color: #56E3B8;
-  border: 3px solid #56E3B8;
+.Bouton-Submit {
+  background-color: #56e3b8;
+  border: 3px solid #56e3b8;
 }
 
-.Bouton-Restaurer{
-  background-color: #EEE;
-  border: 3px solid #EEE;
+.Bouton-Restaurer {
+  background-color: #eee;
+  border: 3px solid #eee;
 }
 
-.Filtre{
+.Filtre {
   margin-left: 70px;
   margin-top: 50px;
   display: flex;
 }
 
-.Bouton-filtre{
-  background-color: #EEE;
-  border: 3px solid #EEE;
+.Bouton-filtre {
+  background-color: #eee;
+  border: 3px solid #eee;
   margin-left: 20px;
 }
 
-.Trier{
+.Trier {
   margin-top: 5px;
 }
-.Div-content{
+.Div-content {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
-  background-color: #EEE;
+  background-color: #eee;
 }
 
-.Desc{
+.Desc {
   width: 14%;
   margin: auto;
   text-align: center;
 }
 
-.Description{
+.Description {
   width: 20%;
-
 }
 
-.Titre{
+.Titre {
   margin-left: 70px;
   width: 9%;
 }
 
-.DescTitle{
+.DescTitle {
   margin-left: 10px;
 }
-
