@@ -16,6 +16,7 @@
 
 ```sh
 npm install
+npm install axios
 ```
 
 ## Usage

@@ -7,7 +7,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => (
   <BrowserRouter>
-    <div>
       <Header />
       <Routes>
         <Route path="/" element={<Events />} />
@@ -15,7 +14,6 @@ const App = () => (
         <Route path="/FAQ" element={<FAQ />} />
         {/* <Route path="*" element={<Page404 />} /> */}
       </Routes>
-    </div>
   </BrowserRouter>
 );
 
