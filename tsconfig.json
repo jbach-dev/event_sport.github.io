@@ -18,5 +18,5 @@
     "jsx": "react-jsx",
     "noImplicitAny": false
   },
-  "include": ["src", "src/pages", "project_react", "index.tsx"]
+  "include": ["src", "src/pages", "project_react", "docs/index.tsx"]
 }
