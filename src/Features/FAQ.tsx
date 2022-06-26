@@ -1,19 +1,49 @@
-import React from 'react'
+import React from "react"; 
+import "./FAQ.css";
 
-function FAQ ({faq, index, toggleFAQ}) {
-	return (
-		<div
-			className={"faq " + (faq.open ? 'open' : '')}
-			key={index}
-			onClick={() => toggleFAQ(index)}>
-			<div className="faq-question">
-				{faq.question}
-			</div>
-			<div className="faq-reponse">
-				{faq.answer}
-			</div>
-		</div>
-	)
+function Faq() {
+
+  return (
+    <div className="container">
+      <h1>FAQ</h1>
+      <div className="Faq">
+        <div className="QA">
+          <p>Question ?</p>
+          <p>Reponse</p>
+        </div>
+        <div className="QA">
+          <p>Question ?</p>
+          <p>Reponse</p>
+        </div>
+        <div className="QA">
+          <p>CQuestion ?</p>
+          <p>Reponse</p>
+        </div>
+        <div className="QA">
+          <p>Question ?</p>
+          <p>Reponse</p>
+        </div>
+      </div>
+      <div className="Faq">
+        <div className="QA">
+          <p>Question ?</p>
+          <p>Reponse</p>
+        </div>
+        <div className="QA">
+          <p>Question ?</p>
+          <p>Reponse</p>
+        </div>
+        <div className="QA">
+          <p>Question ?</p>
+          <p>Reponse</p>
+        </div>
+        <div className="QA">
+          <p>Question ?</p>
+          <p>Reponse</p>
+        </div>
+      </div>
+    </div>
+  );
+
 }
-
-export default FAQ
+export default Faq;
