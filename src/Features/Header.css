@@ -1,0 +1,21 @@
+.navbar{
+	color:white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.navbar a{
+	text-decoration: none;
+	color:black;
+	padding:10px;
+	border:2px solid #999999;
+	border-radius:5px;
+	background-color:#f0f8ff;
+	padding:15px;
+}
+
+.FAQ_header{
+	margin-left:30px;
+}

@@ -1,11 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import Error from "./404";
+import ReactDOM from "react-dom/client";
+import App from "./Features/App";
 
-ReactDOM.render(
+
+const root = ReactDOM.createRoot(
+  document.getElementById("root") as HTMLElement
+);
+root.render(
   <React.StrictMode>
-    <Error />
-  </React.StrictMode>,
-  document.getElementById("root")
+    <App />
+  </React.StrictMode>
 );
