@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import Events from "./Features/Events";
 import Header from "./Features/Header";
 import reportWebVitals from "./reportWebVitals";
 
@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Header />
-    <App />
+    <Events />
   </React.StrictMode>
 );
 
