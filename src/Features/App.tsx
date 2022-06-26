@@ -3,6 +3,7 @@ import React from "react";
 import Events from "./Events";
 import Header from "./Header";
 import FAQ from "./FAQ";
+import Error from "./404";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => (
@@ -12,7 +13,7 @@ const App = () => (
       <Route path="/" element={<Events />} />
       {/* <Route path="/events" element={<Events />} /> */}
       <Route path="/FAQ" element={<FAQ />} />
-      {/* <Route path="*" element={<Page404 />} /> */}
+      <Route path="*" element={<Error />} />
     </Routes>
   </BrowserRouter>
 );

@@ -1,0 +1,24 @@
+.container {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Bottom right text */
+.text-block {
+  text-align: center;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 6em */
+}
+
+.image {
+  width: 100%;
+  color: black;
+}
